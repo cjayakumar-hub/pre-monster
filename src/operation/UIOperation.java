@@ -28,7 +28,7 @@ public class UIOperation {
 			driver.get(p.getProperty(value));
 			break;
 		case "GETTEXT":
-			//Get text of an element
+			//Get text of an element- test
 			driver.findElement(this.getObject(p,objectName,objectType)).getText();
 			break;
 
